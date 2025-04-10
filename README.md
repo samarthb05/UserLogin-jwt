@@ -1,4 +1,4 @@
-# JWT Auth API with Node.js, Express & MongoDB
+# User Login JWT Auth API with Node.js, Express & MongoDB
 
 This is a simple user authentication system built with **Node.js**, **Express**, **MongoDB**, and **JWT (JSON Web Token)**. It allows users to register, login, and access a protected route (user profile) after authentication.
 
