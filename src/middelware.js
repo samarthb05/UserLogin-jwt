@@ -12,8 +12,8 @@ const authenticate = (req, res, next) => {
     req.userId = decoded.userId;
     next();
   } catch (error) {
-    console.log("Token verification failed:", error);
-    return res.status(400).json({ message: "Invalid token" });
+    console.error(error.message);
+    return res.status(401).json({ message: error.message });
   }
 };
 module.exports = authenticate;
