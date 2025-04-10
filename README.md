@@ -15,7 +15,6 @@ This is a simple user authentication system built with **Node.js**, **Express**,
 ## Installation
 
 1. **Clone the repo**
-   
   - git clone https://github.com/samarthb05/UserLogin.git
     
 2. **Install dependencies**
@@ -45,6 +44,8 @@ This is a simple user authentication system built with **Node.js**, **Express**,
 - bcrypt
 - dotenv
 - password-validator
+
+
 
 
 **Thank you!**
